@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-friendli-dev-66ecd-authRole",
+      "UnauthRoleArn": "arn:aws:iam::755562371249:role/amplify-friendli-dev-66ecd-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::755562371249:role/amplify-friendli-dev-66ecd-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-friendli-dev-66ecd-deployment",
+      "UnauthRoleName": "amplify-friendli-dev-66ecd-unauthRole",
+      "StackName": "amplify-friendli-dev-66ecd",
+      "StackId": "arn:aws:cloudformation:us-east-2:755562371249:stack/amplify-friendli-dev-66ecd/32f832c0-17de-11ef-bf10-0629386e5b7b",
+      "AmplifyAppId": "d27pca01b69caz"
+    }
+  }
+}
