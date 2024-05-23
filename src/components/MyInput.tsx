@@ -1,14 +1,15 @@
 import { TextInput, Text, View, StyleSheet } from "react-native"
 import { Colors } from "../../constants/colors"
+import { Dispatch, SetStateAction } from "react"
 
 interface InputProps {
   label: string
-  value: string
-  onChangeText: () => void
-  secureTextEntry: any
+  value?: string
+  onChangeText: Dispatch<SetStateAction<string>>
+  secureTextEntry?: any
 }
 
-export default function Input({
+export default function MyInput({
   label,
   value,
   onChangeText,
